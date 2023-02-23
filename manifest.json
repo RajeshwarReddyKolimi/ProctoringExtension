@@ -1,0 +1,14 @@
+{
+  "name": "My Form Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A Chrome extension that allows users to input their details through a form",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "Index.html"
+  }
+}
